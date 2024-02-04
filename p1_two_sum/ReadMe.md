@@ -1,4 +1,4 @@
-The `two_sum`, where you're given an array of integers and an integer target, and you need to find two numbers such that they add up to the target, has several real-world analogs. Here are a few examples:
+The `two_sum` problem, where you're given an array of integers and an integer target, and you need to find two numbers such that they add up to the target, has several real-world analogs. Here are a few examples:
 
 1. **Financial Transactions**: In finance, the `two_sum` problem can resemble reconciling transactions. For instance, if you know the total amount spent in a day and have a list of transaction amounts, you might need to identify which two transactions (if any) combined to a specific total amount.
 
