@@ -35,17 +35,13 @@ bool is_valid_parenthese(const std::string s) {
             if (stack.empty()) {
                 return false;  // because a closing parens will be in first and remain unclosed
             }
-
             char top_element = stack.back(); // Get the top element
-
             if (parentheses[top_element] != c) {
                 return false;  // If top_element is for e.g. ( and c is ], it's an invalid pair
             }
-
             stack.pop_back();  // Matching pair - pop top element off stack
         }
     }
-
     return stack.empty();;
 }
 
